@@ -1,0 +1,128 @@
+What should you focus on when selling a house in Ames?
+Data Dictionary
+
+Contributors: Val Garland, Jenny Yung, Chun Tao, Richa Vala
+###################
+
+DATA SOURCE
+-------------------
+House Price: Advanced Regression Techniques
+kaggle.com/c/house-prices-advanced-regression-techniques/overview
+
+#############################
+
+     PROJECT DESCRIPTION
+-----------------------------
+1. Understanding the features that determine the house price in Ames, IA
+  • Identify the most important features that can influence the house price in Ames, IA.
+  • Provide business insights to the realtor business, especially provide suggestions to home sellers.
+2. Looking for the better way to separate the houses into geographic groups 
+
+
+#############################
+
+   DATA DICTIONARY PURPOSE
+-------------------------
+To provide a detailed description of the information used to perform data analysis.
+
+#############################
+   
+       FILES DESCRIBED
+     DATA CLEANING FOLDER
+-----------------------------
+Ames_HousePrice.csv
+-----------------------------
+Generated Features:
+	price_sqft: the sale price of a house by square footage, defined by saleprice/grlivarea
+	house_age: the age of house when it's sold, defined by yrsold - yearbuilt 
+	reno_age: number of years since the house's latest renovation, defined by yrsold - yearremodadd
+	bbratio_abvgr: ratio of total number bedroom to total number of bathroom above ground level of a house
+	tporch: the total square footage of the porch and deck area of a house, defined by wooddecksf + openporchsf + enclosedporch + 
+	3ssnporch + screenporch
+        nbhd_below_uoi - neighborhood commute distance from Iowa State University
+	nbhd_above_uoi - neighborhood commute distance from Iowa State University
+	nbhd_below_dot - neighborhood commute distance from Iowa department of transportation
+	nbhd_below_dot - neighborhood commute distance from Iowa department of transportation
+
+Original Features:
+
+        SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
+	MSSubClass: the building class
+	MSZoning: the general zoning classification
+	LotFrontage: linear feet of street connected to property
+	LotArea: lot size in square feet
+	Street: type of road access
+	Alley: type of alley access
+	LotShape: general shape of property
+	LandContour: flatness of the property
+	Utilities: type of utilities available
+	LotConfig: lot configuration
+	LandSlope: slope of property
+	Neighborhood: physical locations within Ames city limits
+	Condition1: proximity to main road or railroad
+	Condition2: proximity to main road or railroad (if a second is present)
+	BldgType: type of dwelling
+	HouseStyle: style of dwelling
+	OverallQual: overall material and finish quality
+	OverallCond: overall condition rating
+	YearBuilt: original construction date
+	YearRemodAdd: remodel date
+	RoofStyle: type of roof
+	RoofMatl: roof material
+	Exterior1st: exterior covering on house
+	Exterior2nd: exterior covering on house (if more than one material)
+	MasVnrType: masonry veneer type
+	MasVnrArea: masonry veneer area in square feet
+	ExterQual: exterior material quality
+	ExterCond: present condition of the material on the exterior
+	Foundation: type of foundation
+	BsmtQual: height of the basement
+	BsmtCond: general condition of the basement
+	BsmtExposure: walkout or garden level basement walls
+	BsmtFinType1: quality of basement finished area
+	BsmtFinSF1: type 1 finished square feet
+	BsmtFinType2: quality of second finished area (if present)
+	BsmtFinSF2: type 2 finished square feet
+	BsmtUnfSF: unfinished square feet of basement area
+	TotalBsmtSF: total square feet of basement area
+	Heating: type of heating
+	HeatingQC: heating quality and condition
+	CentralAir: central air conditioning
+	Electrical: electrical system
+	1stFlrSF: first Floor square feet
+	2ndFlrSF: second floor square feet
+	LowQualFinSF: low quality finished square feet (all floors)
+	GrLivArea: above grade (ground) living area square feet
+	BsmtFullBath: basement full bathrooms
+	BsmtHalfBath: basement half bathrooms
+	FullBath: full bathrooms above grade
+	HalfBath: Half baths above grade
+	Bedroom: number of bedrooms above basement level
+	Kitchen: number of kitchens
+	KitchenQual: kitchen quality
+	TotRmsAbvGrd: total rooms above grade (does not include bathrooms)
+	Functional: home functionality rating
+	Fireplaces: number of fireplaces
+	FireplaceQu: fireplace quality
+	GarageType: garage location
+	GarageYrBlt: year garage was built
+	GarageFinish: interior finish of the garage
+	GarageCars: size of garage in car capacity
+	GarageArea: size of garage in square feet
+	GarageQual: garage quality
+	GarageCond: garage condition
+	PavedDrive: paved driveway
+	WoodDeckSF: wood deck area in square feet
+	OpenPorchSF: open porch area in square feet
+	EnclosedPorch: enclosed porch area in square feet
+	3SsnPorch: three season porch area in square feet
+	ScreenPorch: acreen porch area in square feet
+	PoolArea: pool area in square feet
+	PoolQC: pool quality
+	Fence: fence quality
+	MiscFeature: miscellaneous feature not covered in other categories
+	MiscVal: $value of miscellaneous feature
+	MoSold: month Sold
+	YrSold: year Sold
+	SaleType: type of sale
+	SaleCondition: condition of sale
